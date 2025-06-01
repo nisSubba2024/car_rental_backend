@@ -6,9 +6,10 @@ This is a full-featured car rental backend app I built using Java 24, Spring Boo
 Working on this project helped me get a better grasp of how to structure bigger backend systems with clean architecture, making them easier to maintain and scale. I learned a lot about building solid REST APIs, managing relationships between entities with JPA/Hibernate, and securing apps properly. It also gave me practical experience designing database schemas, handling errors, and testing APIs using Postman. Overall, this project really boosted my confidence in building real-world backend applications using Java and Spring Boot.
 
 ## Table of Contents
-
+- [Tech Stack](#tech-stack)
 - [File Structure](#file-structure)
 - [Project Modules](#project-modules)
+- [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Entity Relationships](#entity-relationships)
 - [Entity Attributes Overview](#entity-attributes-overview)
   - [User](#user)
@@ -16,7 +17,6 @@ Working on this project helped me get a better grasp of how to structure bigger 
   - [Vehicle](#vehicle)
   - [Payment](#payment)
   - [Order](#order)
-- [Tech Stack](#tech-stack)
 - [REST API Endpoints](#rest-api-endpoints)
   - [User Controller](#user-controller)
   - [Vehicle Controller](#vehicle-controller)
@@ -27,7 +27,16 @@ Working on this project helped me get a better grasp of how to structure bigger 
 - [Whats Next](#whats-next)
 - [Feedback Welcome](#feedback-welcome)
 
+## Tech Stack
 
+- **Language**: Java 24
+- **Framework**: Spring Boot 3.4.5
+- **Database**: PostgreSQL 17
+- **Build Tool**: Maven
+- **Security**: Spring Security, Bcrypt (strength: 10)
+- **Testing**: Postman
+- **Version Control**: GitHub
+- **IDE**: IntelliJ IDEA
 
 ## File Structure
 
@@ -91,6 +100,9 @@ src/java/org.example.carrentalbackend/
 - `RandomIdGenerator.java`
 - `YearDeserializer.java`
 
+## Entity Relationship Diagram
+![ERD Diagram](src/main/resources/static/car_rental_backend_er_diagram.png)
+
 ## Entity Relationships
 
 - **User ↔ Address**: One-to-Many
@@ -133,17 +145,6 @@ src/java/org.example.carrentalbackend/
 - `user`, `vehicle`, `payment` – FKs
 - `reservationDateTime`, `returnDateTime`
 - `orderStatus: OrderStatus`
-
-## Tech Stack
-
-- **Language**: Java 24
-- **Framework**: Spring Boot 3.4.5
-- **Database**: PostgreSQL 17
-- **Build Tool**: Maven
-- **Security**: Spring Security, Bcrypt (strength: 10)
-- **Testing**: Postman
-- **Version Control**: GitHub
-- **IDE**: IntelliJ IDEA
 
 ## 🌐 REST API Endpoints
 
