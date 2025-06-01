@@ -1,0 +1,52 @@
+[
+  {
+    "customer_id": 1,
+    "first_name": "Alice",
+    "last_name": "Johnson",
+    "username": "alicej",
+    "email": "alice.johnson@example.com",
+    "password": "hashedpassword1",
+    "phone_number": "555-1234",
+    "roles": "USER"
+  },
+  {
+    "customer_id": 2,
+    "first_name": "Bob",
+    "last_name": "Smith",
+    "username": "bobsmith",
+    "email": "bob.smith@example.com",
+    "password": "hashedpassword2",
+    "phone_number": "555-5678",
+    "roles": "ADMIN"
+  },
+  {
+    "customer_id": 3,
+    "first_name": "Carol",
+    "last_name": "Williams",
+    "username": "carolw",
+    "email": "carol.williams@example.com",
+    "password": "hashedpassword3",
+    "phone_number": "555-9012",
+    "roles": "USER"
+  },
+  {
+    "customer_id": 4,
+    "first_name": "David",
+    "last_name": "Brown",
+    "username": "davidb",
+    "email": "david.brown@example.com",
+    "password": "hashedpassword4",
+    "phone_number": "555-3456",
+    "roles": "USER"
+  },
+  {
+    "customer_id": 5,
+    "first_name": "Eve",
+    "last_name": "Davis",
+    "username": "eved",
+    "email": "eve.davis@example.com",
+    "password": "hashedpassword5",
+    "phone_number": "555-7890",
+    "roles": "USER"
+  }
+]

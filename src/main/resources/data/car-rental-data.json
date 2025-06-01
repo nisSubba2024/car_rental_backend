@@ -1,0 +1,304 @@
+{
+  "users": [
+    {
+      "customer_id": 1,
+      "first_name": "Alice",
+      "last_name": "Johnson",
+      "username": "alicej",
+      "email": "alice.johnson@example.com",
+      "password": "hashedpassword1",
+      "phone_number": "555-1234",
+      "home_address_id": 1,
+      "roles": "CUSTOMER"
+    },
+    {
+      "customer_id": 2,
+      "first_name": "Bob",
+      "last_name": "Smith",
+      "username": "bobsmith",
+      "email": "bob.smith@example.com",
+      "password": "hashedpassword2",
+      "phone_number": "555-5678",
+      "home_address_id": 2,
+      "roles": "ADMIN"
+    },
+    {
+      "customer_id": 3,
+      "first_name": "Carol",
+      "last_name": "Williams",
+      "username": "carolw",
+      "email": "carol.williams@example.com",
+      "password": "hashedpassword3",
+      "phone_number": "555-9012",
+      "home_address_id": 3,
+      "roles": "CUSTOMER"
+    },
+    {
+      "customer_id": 4,
+      "first_name": "David",
+      "last_name": "Brown",
+      "username": "davidb",
+      "email": "david.brown@example.com",
+      "password": "hashedpassword4",
+      "phone_number": "555-3456",
+      "home_address_id": 4,
+      "roles": "CUSTOMER"
+    },
+    {
+      "customer_id": 5,
+      "first_name": "Eve",
+      "last_name": "Davis",
+      "username": "eved",
+      "email": "eve.davis@example.com",
+      "password": "hashedpassword5",
+      "phone_number": "555-7890",
+      "home_address_id": 5,
+      "roles": "CUSTOMER"
+    }
+  ],
+
+  "addresses": [
+    {
+      "address_id": 1,
+      "street_number": "123",
+      "street_name": "Maple St",
+      "city": "Springfield",
+      "state": "IL",
+      "zip_code": "62701"
+    },
+    {
+      "address_id": 2,
+      "street_number": "456",
+      "street_name": "Oak Ave",
+      "city": "Lincoln",
+      "state": "NE",
+      "zip_code": "68508"
+    },
+    {
+      "address_id": 3,
+      "street_number": "789",
+      "street_name": "Pine Rd",
+      "city": "Madison",
+      "state": "WI",
+      "zip_code": "53703"
+    },
+    {
+      "address_id": 4,
+      "street_number": "101",
+      "street_name": "Cedar Blvd",
+      "city": "Denver",
+      "state": "CO",
+      "zip_code": "80203"
+    },
+    {
+      "address_id": 5,
+      "street_number": "202",
+      "street_name": "Elm St",
+      "city": "Austin",
+      "state": "TX",
+      "zip_code": "78701"
+    }
+  ],
+
+  "cars": [
+    {
+      "car_id": 1,
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2020,
+      "license_plate": "ABC123",
+      "location": "Springfield",
+      "car_type": "Sedan",
+      "current_mileage": 15000,
+      "city_mpg": 28,
+      "highway_mpg": 39,
+      "is_available": true,
+      "rental_price": 45.00,
+      "car_image": "toyota_camry_2020.jpg"
+    },
+    {
+      "car_id": 2,
+      "make": "Ford",
+      "model": "Escape",
+      "year": 2019,
+      "license_plate": "XYZ789",
+      "location": "Denver",
+      "car_type": "SUV",
+      "current_mileage": 22000,
+      "city_mpg": 24,
+      "highway_mpg": 31,
+      "is_available": false,
+      "rental_price": 55.00,
+      "car_image": "ford_escape_2019.jpg"
+    },
+    {
+      "car_id": 3,
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2021,
+      "license_plate": "DEF456",
+      "location": "Austin",
+      "car_type": "Sedan",
+      "current_mileage": 8000,
+      "city_mpg": 30,
+      "highway_mpg": 38,
+      "is_available": true,
+      "rental_price": 50.00,
+      "car_image": "honda_civic_2021.jpg"
+    },
+    {
+      "car_id": 4,
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "year": 2018,
+      "license_plate": "GHI321",
+      "location": "Lincoln",
+      "car_type": "Truck",
+      "current_mileage": 40000,
+      "city_mpg": 17,
+      "highway_mpg": 24,
+      "is_available": true,
+      "rental_price": 65.00,
+      "car_image": "chevy_silverado_2018.jpg"
+    },
+    {
+      "car_id": 5,
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2022,
+      "license_plate": "TES123",
+      "location": "Madison",
+      "car_type": "Sedan",
+      "current_mileage": 5000,
+      "city_mpg": 130,
+      "highway_mpg": 120,
+      "is_available": false,
+      "rental_price": 100.00,
+      "car_image": "tesla_model3_2022.jpg"
+    }
+  ],
+
+  "orders": [
+    {
+      "order_id": 1,
+      "customer_id": 1,
+      "car_id": 1,
+      "reserve_time": "2025-05-01T10:00:00Z",
+      "return_time": "2025-05-05T10:00:00Z"
+    },
+    {
+      "order_id": 2,
+      "customer_id": 3,
+      "car_id": 3,
+      "reserve_time": "2025-05-02T14:00:00Z",
+      "return_time": "2025-05-04T14:00:00Z"
+    },
+    {
+      "order_id": 3,
+      "customer_id": 4,
+      "car_id": 4,
+      "reserve_time": "2025-05-10T09:00:00Z",
+      "return_time": "2025-05-15T09:00:00Z"
+    },
+    {
+      "order_id": 4,
+      "customer_id": 5,
+      "car_id": 2,
+      "reserve_time": "2025-05-03T08:00:00Z",
+      "return_time": "2025-05-07T08:00:00Z"
+    },
+    {
+      "order_id": 5,
+      "customer_id": 1,
+      "car_id": 5,
+      "reserve_time": "2025-05-12T11:00:00Z",
+      "return_time": "2025-05-13T11:00:00Z"
+    }
+  ],
+
+  "payment_methods": [
+    {
+      "payment_id": 1,
+      "type": "credit",
+      "card_owner_name": "Alice Johnson",
+      "cc_number": "4111111111111111",
+      "cc_expiration_date": "2026-10",
+      "cc_secret_code": "123",
+      "amount": 225.00,
+      "billing_address_id": 1
+    },
+    {
+      "payment_id": 2,
+      "type": "debit",
+      "card_owner_name": "Bob Smith",
+      "cc_number": "5500000000000004",
+      "cc_expiration_date": "2025-09",
+      "cc_secret_code": "456",
+      "amount": 275.00,
+      "billing_address_id": 2
+    },
+    {
+      "payment_id": 3,
+      "type": "credit",
+      "card_owner_name": "Carol Williams",
+      "cc_number": "340000000000009",
+      "cc_expiration_date": "2027-03",
+      "cc_secret_code": "789",
+      "amount": 100.00,
+      "billing_address_id": 3
+    },
+    {
+      "payment_id": 4,
+      "type": "credit",
+      "card_owner_name": "David Brown",
+      "cc_number": "30000000000004",
+      "cc_expiration_date": "2026-12",
+      "cc_secret_code": "321",
+      "amount": 325.00,
+      "billing_address_id": 4
+    },
+    {
+      "payment_id": 5,
+      "type": "debit",
+      "card_owner_name": "Eve Davis",
+      "cc_number": "6011000000000004",
+      "cc_expiration_date": "2025-06",
+      "cc_secret_code": "654",
+      "amount": 220.00,
+      "billing_address_id": 5
+    }
+  ],
+
+  "confirmations": [
+    {
+      "confirmation_id": 1,
+      "order_id": 1,
+      "payment_id": 1,
+      "transaction_time": "2025-04-30T15:30:00Z"
+    },
+    {
+      "confirmation_id": 2,
+      "order_id": 2,
+      "payment_id": 3,
+      "transaction_time": "2025-05-01T09:00:00Z"
+    },
+    {
+      "confirmation_id": 3,
+      "order_id": 3,
+      "payment_id": 4,
+      "transaction_time": "2025-05-09T12:45:00Z"
+    },
+    {
+      "confirmation_id": 4,
+      "order_id": 4,
+      "payment_id": 2,
+      "transaction_time": "2025-05-02T11:00:00Z"
+    },
+    {
+      "confirmation_id": 5,
+      "order_id": 5,
+      "payment_id": 5,
+      "transaction_time": "2025-05-11T14:20:00Z"
+    }
+  ]
+}

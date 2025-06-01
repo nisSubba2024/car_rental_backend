@@ -1,0 +1,30 @@
+spring:
+  config:
+    import: classpath:dbConfig.properties
+  datasource:
+    url: ${datasource.url}
+    username: ${datasource.username}
+    password: ${datasource.password}
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+        format_sql: true
+#  servlet:
+#    multipart:
+#      enabled: true
+#      max-file-size: 1000MB
+#      max-request-size: 1000MB
+  mvc:
+    async:
+      request-timeout: 3600000
+server:
+  port: 8080
+  error:
+    path: /user/error
+    whitelabel:
+      enabled: false
