@@ -64,7 +64,7 @@ src/java/org.example.carrentalbackend/
 - `VehicleRepository.java`
 - `VehicleService.java`
 
-### `payment/`(#payment)
+### `payment/`
 - `CardNetwork.java` – Enum
 - `CardType.java` – Enum
 - `Payment.java` – Entity
