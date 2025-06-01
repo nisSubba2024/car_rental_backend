@@ -27,7 +27,7 @@ A full-featured car rental backend application developed using **Java 24**, **Sp
 
 
 
-## 📁 File Structure
+## File Structure
 
 ```
 src/java/org.example.carrentalbackend/
@@ -42,7 +42,7 @@ src/java/org.example.carrentalbackend/
 └── Application.java
 ```
 
-## 🔍 Project Modules
+## Project Modules
 
 ### `user/`
 - `Role.java` – Enum for user roles
@@ -89,7 +89,7 @@ src/java/org.example.carrentalbackend/
 - `RandomIdGenerator.java`
 - `YearDeserializer.java`
 
-## 🔗 Entity Relationships
+## Entity Relationships
 
 - **User ↔ Address**: One-to-Many
 - **User ↔ Payment**: One-to-Many
@@ -97,7 +97,7 @@ src/java/org.example.carrentalbackend/
 - **Vehicle ↔ Order**: One-to-Many (Vehicle must be available to be ordered)
 - **Order**: References User, Vehicle, and Payment
 
-## 🧩 Entity Attributes Overview
+## Entity Attributes Overview
 
 ### `User`
 - `userId: UUID` (PK)
@@ -132,7 +132,7 @@ src/java/org.example.carrentalbackend/
 - `reservationDateTime`, `returnDateTime`
 - `orderStatus: OrderStatus`
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language**: Java 24
 - **Framework**: Spring Boot 3.4.5
@@ -183,7 +183,7 @@ src/java/org.example.carrentalbackend/
 | GET    | `/order/user/{email}` | Get orders by email |
 | GET    | `/order/user/{phoneNumber}` | Get orders by phone number |
 
-## 🔐 Security Overview
+## Security Overview
 
 - **Password Hashing**: Bcrypt with strength 10
 - **Public Endpoints**:
@@ -193,7 +193,7 @@ src/java/org.example.carrentalbackend/
 - **Authentication Required**: All other endpoints
 - **Spring Security**: Configured for role-based access and route protection
 
-## ✅ Key Features & Design
+## Key Features & Design
 
 - ✅ Strong validation (no duplicate VINs, logical reservations)
 - ✅ Enum usage for controlled values (`Role`, `OrderStatus`, `CarType`, etc.)
@@ -202,7 +202,7 @@ src/java/org.example.carrentalbackend/
 - ✅ Manual UUID generation + custom readable order IDs
 - ✅ Consistent naming conventions: `snake_case` for SQL, `camelCase` for Java
 
-## 🧠 What I Learned
+## What I Learned
 
 - **First full Spring Boot project** – previously tried ExpressJS and Django
 - **Gained deeper understanding of OOP** – including interfaces, encapsulation, and services
@@ -212,13 +212,13 @@ src/java/org.example.carrentalbackend/
 - **Annotations** – became familiar with common Spring annotations
 - **Postman** – learned effective API testing and debugging
 
-## 🚀 What’s Next
+## What’s Next
 
 - Currently building a **frontend** using:
   - **React**
   - **TypeScript**
   - **Vite**
 
-## 🙏 Feedback Welcome!
+## Feedback Welcome!
 
 > This was a massive learning experience. I welcome **any feedback** or code reviews on GitHub to help me improve. Your suggestions will be deeply appreciated!
