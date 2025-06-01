@@ -27,7 +27,7 @@ A full-featured car rental backend application developed using **Java 24**, **Sp
 
 
 
-## 📁 File Structure(#file-structure)
+## 📁 File Structure
 
 ```
 src/java/org.example.carrentalbackend/
@@ -42,7 +42,7 @@ src/java/org.example.carrentalbackend/
 └── Application.java
 ```
 
-## 🔍 Project Modules(#project-modules)
+## 🔍 Project Modules
 
 ### `user/`
 - `Role.java` – Enum for user roles
