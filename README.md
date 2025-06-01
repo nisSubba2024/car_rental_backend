@@ -1,7 +1,9 @@
 
 # 🚗 Car Rental Backend System (Java + Spring Boot)
 
-A full-featured car rental backend application developed using **Java 24**, **Spring Boot 3.4.5**, and **PostgreSQL 17**, following clean architecture and RESTful principles. This project focuses on building a modular and secure backend with a clear separation of concerns, robust authentication, and practical real-world use cases.
+This is a full-featured car rental backend app I built using Java 24, Spring Boot 3.4.5, and PostgreSQL 17. I followed clean architecture and RESTful design principles to keep the code modular and organized, with clear separation between controllers, services, and repositories. The app handles everything from user registration and login, to managing vehicles, orders, payments, and addresses — all secured with Spring Security and bcrypt for authentication and role-based access.
+
+Working on this project helped me get a better grasp of how to structure bigger backend systems with clean architecture, making them easier to maintain and scale. I learned a lot about building solid REST APIs, managing relationships between entities with JPA/Hibernate, and securing apps properly. It also gave me practical experience designing database schemas, handling errors, and testing APIs using Postman. Overall, this project really boosted my confidence in building real-world backend applications using Java and Spring Boot.
 
 ## Table of Contents
 
